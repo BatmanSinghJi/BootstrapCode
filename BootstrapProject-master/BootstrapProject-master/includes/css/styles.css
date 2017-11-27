@@ -1,0 +1,350 @@
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+.body {
+   background-color: #efefef;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#searchInput {
+   width: 200px;
+}
+
+.navbar-brand {
+  padding: 3px 15px;
+}
+
+.navbar-brand img {
+   width: 100%;
+   }
+
+.menu-bar {
+   margin-top: 4em;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+   color: #222;
+   background-color: transparent;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel {
+   margin-top: 10em;
+}
+
+.carousel-caption {
+   font-size: 24px;
+}
+
+.carousel-caption h4 {
+   font-size: 32px;
+}
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+   background: url('../../images/carousel1.jpg') top center no-repeat;
+
+}
+
+#slide2 {
+   background: url('../../images/carousel2.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/carousel3.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Section 1
+   -------------------------------------- */
+
+.section-01 {
+   float: left; 
+   width: 100%;  
+   border-top: 1px solid #d5d5d5;
+   border-bottom: 1px solid #d5d5d5;
+   margin-top: 15px;
+}
+
+.section-01 .heading-large {
+   border-bottom: 2px solid #222; 
+   color: #222; 
+   float: left; 
+   width: 100%; 
+   padding:0 0 6px;
+   margin:0 0 18px; 
+   text-align: left;
+}
+
+.section-01 .heading-large::before, .section-01 .heading-large::after {
+   background: transparent;
+}
+
+.section-01 .heading-small {
+   border-bottom: 2px solid #222; 
+   color: #222; 
+   float: left;
+   margin: 7px 0 0; 
+   width: 100%; 
+   padding-bottom: 10px; 
+   font-size: 18px
+    }
+
+.section-01 .title-small {
+   margin-bottom: 5px;
+   font-size:17px 
+}
+
+.section-01 .news-block {
+   border-bottom: 1px dashed #000; 
+   padding-bottom: 30px; 
+   border: none;
+ }
+
+.section-01 aside > .news-block{ 
+   border-bottom: 1px dashed #000; 
+   padding-bottom: 19px;
+}
+
+.section-01 aside > .news-block:last-child {
+   border-bottom: none; 
+   margin-bottom: 20px
+}
+.section-01 .card {border: none; 
+   margin-top: 5px;
+   min-height: 200px;
+}
+.section-01 .card-block{
+ padding: 10px 0;
+}
+
+
+/* --------------------------------------
+   Section 2
+   -------------------------------------- */
+
+
+.heading-large{ 
+   color: #222;
+   float: none;
+   font-size: 28px; 
+   font-weight: 700;
+   margin: 0 auto 30px; 
+   padding: 0 10px; 
+   position: relative;    
+   text-align: center; 
+   text-transform: uppercase; 
+   width: 45%;
+}
+
+.heading-large::before{ 
+   background: #222; 
+   height: 3px; 
+   content: "";
+   width: 100px; 
+   position: absolute; 
+   left: -25%; 
+   top: 43%;
+}
+
+.heading-large::after {  
+   background: #222; 
+   content: ""; 
+   height: 3px; 
+   position: absolute; 
+   right: -25%; 
+   top: 43%; 
+   width: 100px;
+}
+
+.section-02 h3{
+   float: left; 
+   width: 100%
+}
+
+.section-02 .card {
+   border: none; 
+   margin-bottom: 0 ;height: 350px;}
+.section-02 .card-block{padding: 10px 0}
+
+.section-02 .news-listing {
+   margin-top: 0;
+}
+
+.news-listing {
+   padding: 0; 
+   list-style: none; 
+   float: left; 
+   width: 100%; 
+   margin:15px 0; 
+}
+
+.news-listing li{
+   float: left; 
+   width: 100%; 
+   padding: 10px; 
+   background: #efefef; 
+   border-bottom: 1px solid #fff; 
+   margin: 5px 0
+}
+.news-listing li a::before {
+   content:">>"; 
+   margin-right: 10px
+}
+
+.news-listing li a{ 
+   color: #222; 
+   font-weight: 400; 
+   font-family: 'Roboto Slab', serif;
+}
+
+
+.jumbo1 {
+   margin-top: 7em;
+}
+
+
+/* --------------------------------------
+      Footer
+   -------------------------------------- */
+
+footer { 
+   background-color:#141517; 
+   width:100%; 
+   float: left; 
+   padding: 40px 5px 20px
+}
+
+footer .footer-ul { 
+   list-style-type:none;  
+   padding-left:0px; 
+   margin-left:2px;
+}
+
+footer .footer-ul li { 
+   font-size:14px; 
+   margin-bottom: 10px;
+}
+
+footer .footer-ul li a { 
+   color:#a0a3a4; 
+   transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+}
+
+footer .footer-ul i { 
+   margin-right:10px;
+}
+
+footer .footer-ul li a:hover {
+   transition: background 0.2s ; 
+   color:#fff; 
+   text-decoration: none; 
+}
+
+footer .social-icons i{
+   background: #fff none repeat scroll 0 0;
+   border-radius: 50%; 
+   padding: 8px 10px; 
+   margin-bottom: 10px;
+}
+
+footer p{
+   color: #a0a3a4; 
+   font-size: 14px;
+}
+
+footer p span{
+   color: #fff;
+}
+
+footer .heading-footer { 
+   font-size:21px; 
+   font-weight:700; 
+   color:#d9d6d6; 
+   margin-bottom:22px;
+}
+
+footer .post p { 
+   font-size:14px; 
+   color:#FFF; 
+   line-height:20px;
+}
+
+footer .post p span { 
+   display:block; 
+   color:#8f8f8f; 
+   font-size: 12px;
+}
+
+.copyright { 
+   min-height:40px; 
+   background-color:#000; 
+   float: left; 
+   width: 100%;
+}
+
+.copyright p { 
+   text-align:left; 
+   color:#FFF; 
+   padding:10px 0; 
+   margin-bottom:0px; 
+   font-size: 13px;
+}
+
+.bottom_ul { 
+   list-style-type:none; 
+   float:right; 
+   margin-bottom:0px; 
+   display: inline;
+}
+
+.bottom_ul li { 
+   float:left; 
+   line-height:40px;
+}
+
+.bottom_ul li:after { 
+   content:"/"; 
+   color:#FFF;
+   margin-right:8px;
+   margin-left:8px;
+}
+
+.bottom_ul li a {
+   color:#FFF;
+   font-size:12px;
+}
+
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
